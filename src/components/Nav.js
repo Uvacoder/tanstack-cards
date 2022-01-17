@@ -4,8 +4,8 @@ import Image from 'next/image'
 import tw from 'twin.macro'
 
 const links = [
-  { href: 'https://github.com/tannerlinsley', label: 'GitHub' },
-  { href: 'https://discord.com/invite/WrRKjPJ', label: 'Discord' },
+  { href: 'https://github.com/uuvacoder', label: 'GitHub' },
+  { href: 'https://codepen.io/uvacoder', label: 'Codepen' },
 ]
 
 export default function Nav() {
