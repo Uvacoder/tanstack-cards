@@ -27,6 +27,13 @@ const libraries = [
     tagline: `Simple, immersive & interactive charts for React`,
     description: `Flexible, declarative, and highly configurable charts designed to pragmatically display dynamic data.`,
   },
+  {
+    name: 'React Charts',
+    styles: tw`bg-yellow-500 text-black hover:(bg-white border-yellow-500 bg-transparent dark:text-yellow-500)`,
+    href: 'https://react-charts.tanstack.com',
+    tagline: `Simple, immersive & interactive charts for React`,
+    description: `Flexible, declarative, and highly configurable charts designed to pragmatically display dynamic data.`,
+  },
 ]
 
 const courses = [
@@ -81,48 +88,7 @@ export default function IndexPage() {
           </div>
         </div>
       </section>
-      <div tw="relative max-w-screen-md mx-2 rounded-md p-8 mt--10 bg-white shadow-lg md:(p-14 mx-auto) dark:(bg-gray-800)">
-        <form
-          action="https://app.convertkit.com/forms/1913546/subscriptions"
-          method="post"
-          data-sv-form="1913546"
-          data-uid="7b33d93773"
-          data-format="inline"
-          data-version="5"
-          data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Please, check your email to confirm your subscription.","redirect_url":""},"modal":{"trigger":null,"scroll_percentage":null,"timer":null,"devices":null,"show_once_every":null},"recaptcha":{"enabled":false},"slide_in":{"display_in":null,"trigger":null,"scroll_percentage":null,"timer":null,"devices":null,"show_once_every":null}}}'
-        >
-          <ul
-            className="formkit-alert formkit-alert-error hidden"
-            data-element="errors"
-            data-group="alert"
-          />
-
-          <div>
-            <h3 tw="text-3xl">Don't miss a beat!</h3>
-            <h3 tw="text-lg mt-1">Subscribe to our newsletter.</h3>
-          </div>
-          <div data-element="fields" tw="grid grid-cols-3 mt-4 gap-2">
-            <input
-              className="formkit-input"
-              tw="col-span-2 p-3 placeholder-gray-400 text-gray-700 bg-gray-200 rounded text-sm outline-none focus:outline-none w-full text-black dark:(text-white bg-gray-700)"
-              name="email_address"
-              placeholder="Your email address"
-              type="text"
-              required=""
-            />
-            <button
-              data-element="submit"
-              className="formkit-submit"
-              tw="bg-blue-500 rounded text-white"
-            >
-              <span>Subscribe</span>
-            </button>
-          </div>
-          <p tw="text-sm opacity-30 font-semibold italic mt-2">
-            We never spam, promise!
-          </p>
-        </form>
-      </div>
+     
       {/* <div tw="relative max-w-screen-md mx-2 rounded-md p-8 mt--10 bg-white shadow-lg md:(p-14 mx-auto) dark:(bg-gray-800)">
         <h1 tw="text-2xl font-bold">Blog</h1>
         <div>
@@ -199,12 +165,12 @@ export default function IndexPage() {
       <div tw="bg-gray-800 text-white shadow-lg">
         <div tw="max-w-screen-md mx-auto py-6 px-4 grid gap-1 md:(grid-cols-2)">
           {[
-            { name: 'Twitter', href: 'https://twitter.com/tannerlinsley' },
+            { name: 'Twitter', href: 'https://twitter.com/AlecCam43544378' },
             {
-              name: 'Youtube',
-              href: 'https://www.youtube.com/user/tannerlinsley',
+              name: 'Codepen',
+              href: 'https://codepen.io/uvacoder',
             },
-            { name: 'Github', href: 'https://github.com/tannerlinsley' },
+            { name: 'Github', href: 'https://github.com/uvacoder' },
             {
               name: 'Nozzle.io - Keyword Rank Tracker',
               href: 'https://nozzle.io',
